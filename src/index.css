@@ -11,41 +11,48 @@
   --font-inter: "Inter", sans-serif;
 }
 
+/* Custom Base Styles */
 @layer base {
   body {
-    @apply bg-luxury-black text-white font-inter antialiased;
+    background-color: var(--color-luxury-black);
+    color: white;
+    font-family: var(--font-inter);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-playfair;
+    font-family: var(--font-playfair);
   }
 }
 
-/* Custom Scrollbar */
+/* Custom Scrollbar - Standard CSS */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-luxury-black;
+  background: var(--color-luxury-black);
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-luxury-dark rounded-full;
+  background: var(--color-luxury-dark);
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-luxury-gold;
+  background: var(--color-luxury-gold);
 }
 
-.text-gold {
-  @apply text-luxury-gold;
+/* Utility Shortcuts */
+@utility text-gold {
+  color: var(--color-luxury-gold);
 }
 
-.bg-gold {
-  @apply bg-luxury-gold;
+@utility bg-gold {
+  background-color: var(--color-luxury-gold);
 }
 
-.border-gold {
-  @apply border-luxury-gold;
+@utility border-gold {
+  border-color: var(--color-luxury-gold);
 }

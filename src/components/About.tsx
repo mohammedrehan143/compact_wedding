@@ -16,7 +16,7 @@ const About = () => {
             <img
               src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
               alt="Cinematographer at work"
-              className="relative z-10 w-full rounded-sm shadow-2xl grayscale hover:grayscale-0 transition-all duration-700"
+              className="relative z-10 w-full rounded-sm shadow-2xl lg:grayscale hover:grayscale-0 transition-all duration-700"
             />
             <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-luxury-gold z-0" />
           </motion.div>

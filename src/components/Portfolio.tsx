@@ -48,7 +48,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt={`Wedding moment ${index + 1}`}
-                className="w-full h-auto grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-out"
+                className="w-full h-auto lg:grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 ease-out"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">

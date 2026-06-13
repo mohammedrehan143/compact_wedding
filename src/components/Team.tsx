@@ -60,7 +60,7 @@ const Team = () => {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover transition-all duration-700 group-hover:grayscale group-hover:scale-105"
+                    className="w-full h-full object-cover transition-all duration-700 lg:group-hover:grayscale group-hover:scale-105"
                   />
                   
                   {/* Social Overlay - Pop up on hover */}

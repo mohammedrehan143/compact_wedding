@@ -68,7 +68,7 @@ const FeaturedFilms = () => {
                 <img
                   src={film.thumbnail}
                   alt={film.title}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-cover lg:grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                   <motion.div

@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <div className="mt-1 text-luxury-gold">📍</div>
-                <span>Luxury Lane, Studio House,<br />BMSIT Circle, Bangalore</span>
+                <span>Luxury Lane, Studio House,<br /> Circle, Bangalore</span>
               </li>
             </ul>
           </div>
